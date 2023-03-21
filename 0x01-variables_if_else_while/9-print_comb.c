@@ -1,15 +1,15 @@
 #include<stdio.h>
 /**
  *main - Entry point
- *return: always 0
+ *Return: always 0
 */
 int main(void)
 {
 	int nb;
 
-	for (nb = 0; nb <= 9; nb++)
+	for (nb = 48; nb <= 57; nb++)
 	{
-		putchar(nb + 48);
+		putchar(nb);
 		putchar(',');
 		putchar(' ');
 	}
