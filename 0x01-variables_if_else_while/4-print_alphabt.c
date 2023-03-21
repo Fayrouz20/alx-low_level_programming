@@ -12,6 +12,7 @@ int main(void)
 	{
 		if (low == 101 || low == 113)
 		{
+			low++;
 			continue;
 		}
 		putchar(low);
