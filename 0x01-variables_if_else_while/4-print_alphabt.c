@@ -10,7 +10,7 @@ int main(void)
 
 	while (low <= 122)
 	{
-		if (low == 101 || low == 107)
+		if (low == 101 || low == 113)
 		{
 			continue;
 		}
