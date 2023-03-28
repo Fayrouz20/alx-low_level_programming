@@ -1,19 +1,26 @@
 #include<stdio.h>
-#include "main.h"
+#include<stdlib.h>
 /**
- *print_rev - function()
+ *print_rev - function
  *@s : variable
- *return: void
+ *Return: void
 */
 void print_rev(char *s)
 {
-	int str;
+	int length;
 	int i;
 
-	str = _strlen(s);
-	for (i = str ; i > 0 ; i--)
+	length = 0;
+	while (*s != '\0')
+	{
+		length++;
+		s++;
+	}
+	s--;
+	for (i = length ; i > 0 ; i--)
 	{
 		putchar(*s);
+		s--;
 	}
 	putchar('\n');
 }

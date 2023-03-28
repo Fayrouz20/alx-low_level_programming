@@ -13,4 +13,5 @@ FYI: The standard library provides a similar function: strlen. Run man strlen to
 ********************************************************
 Write a function that prints a string, in reverse, followed by a new line.
 
-Prototype: void print_rev(char *s);
+Prototype: void print_rev(char *s)
+
