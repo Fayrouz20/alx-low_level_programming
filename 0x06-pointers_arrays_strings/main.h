@@ -19,4 +19,6 @@ char *string_toupper(char *nb);
 
 char *cap_string(char *nb);
 
+char *leet(char *str);
+
 #endif /* MAIN_H */
