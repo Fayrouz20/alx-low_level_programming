@@ -6,3 +6,7 @@ Write a function that prints a string in reverse.
 
 Prototype: void _print_rev_recursion(char *s);
 *****************************task 2***********************************
+Write a function that returns the length of a string.
+
+Prototype: int _strlen_recursion(char *s);
+*******************************task 3********************************
