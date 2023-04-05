@@ -10,3 +10,8 @@ Write a function that returns the length of a string.
 
 Prototype: int _strlen_recursion(char *s);
 *******************************task 3********************************
+Write a function that returns the factorial of a given number.
+
+Prototype: int factorial(int n);
+If n is lower than 0, the function should return -1 to indicate an error
+Factorial of 0 is 1
